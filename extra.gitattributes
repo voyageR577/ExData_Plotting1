@@ -12,3 +12,9 @@
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.jpg binary
+
+* text=auto
+* text eol=lf
+
+git rm --cached -r .
+git add -A
